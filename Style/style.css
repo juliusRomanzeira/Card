@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #003049, #669BBC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Card */
+.card {
+    background-color: #FDF0D5;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Título */
+.titulo {
+    color: #003049;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Foto principal */
+.eu {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #669BBC;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.eu:hover {
+    transform: scale(1.05);
+}
+
+/* Seções */
+.quem-sou, .conquistas {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #669BBC;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #003049;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Medalha */
+.medal {
+    width: 50px;
+    transition: transform 0.3s;
+}
+
+.medal:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+/* Setinha opcional */
+.setinha-para-esquerda {
+    display: inline-block;
+    width: 20px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #003049;
+}
