@@ -81,3 +81,28 @@ p {
     border-bottom: 10px solid transparent;
     border-left: 15px solid #003049;
 }
+
+.redes-sociais{
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.trophe {
+    border: 5px solid white;
+}
+
+.rede {
+    width: 50px;
+    transition: transform 0.3s;
+    border-radius: 100px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.github {
+    background: white;
+}
+
+.rede:hover {
+    transform: scale(1.2) rotate(10deg);
+}
